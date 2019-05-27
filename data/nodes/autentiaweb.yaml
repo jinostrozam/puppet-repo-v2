@@ -6,7 +6,7 @@
     - profiles::sudoers
     - profiles::timezone
     - profiles::users
-    - profiles::apache
+    - profiles::server
   users:
     'jorge':
       comment: 'Jorge Molina'
