@@ -1,6 +1,6 @@
 # Configure apache server
 
-class profile::server (
+class profiles::server (
 
 ) {
     notice("class apache default")

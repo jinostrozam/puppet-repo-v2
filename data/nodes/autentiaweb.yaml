@@ -1,11 +1,12 @@
 ---
   classes:
-    - roles::agent
+    - roles::autentiaweb
     - profiles::ntp
     - profiles::ssh
     - profiles::sudoers
     - profiles::timezone
     - profiles::users
+    - profiles::apache
   users:
     'jorge':
       comment: 'Jorge Molina'
